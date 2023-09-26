@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 56% 44%;
+    height: 553px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.item1{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.logo1{
+    height: 60px;
+    width: auto;
+}
+
+.banner1{
+    height: auto;
+    max-width: 100%;
+}
+
+.links{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.signup{
+    background-color: black;
+    height: 10px; 
+    color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+h1{
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+h2{
+    color: gray;
+    margin-top: 5px;
+
+}
+.locationinput{
+    width: 70%;
+    height: 25px;
+    color: gray;
+    margin: 40px auto auto 0px;
+    background-color: transparent;
+     padding: 10px;  
+    font-size: 18px !important;
+    font-weight: 500;
+}
+.Location{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 290px;
+    left: 470px;
+    padding: 12px;
+}
+button:hover{
+    background-color: lightgray;
+}
+.Findfood{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    color: white;
+    background-color: #fc8019;
+    line-height: 50px;
+}
+.cities{
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px 0;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+.citylist{
+    width: 600px;
+    list-style: none;
+    margin-top: 20px;
+}
+.list{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    text-decoration: none;
+}
+.list:nth-child(even){
+    color: lightgray;
+}
+.info-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2b1e16;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 400px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 200px;
+}
+.text-head{
+    color: white;
+    text-align: center;
+    height: 35px;
+    margin-top: 50px;
+}
+.text-detail{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+    width: 270px;
+    margin-left: 100px;
+}
+.second{
+    display: flex;
+}
+
+.second-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.second-left .pocket {
+    width: 350px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 20px;
+    
+}
+.oder p{
+    align-items: center;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px;
+    color: gray;
+}
+
+.playstore{
+    display: flex;
+    flex-direction: row;
+}
+
+.playstore img{
+    width: 180px;
+    height: 50px;
+    padding: 15px;
+}
+
+.second-right{
+    display: flex;
+}
+.second-right img{
+    width: 380px;
+    height: 470px;
+}
+
+#2nd{
+    padding-top: 50px;
+}
+.footer{
+    display: flex;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.footer{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.footer-left{
+    margin-top: 35px;
+    line-height: 30px;
+    font-style: normal;
+    
+}
+.footer-center{
+    margin-left: 0px;
+    margin-top: 35px;
+    line-height: 30px;
+    font-style: normal;
+}
+.footer-right{
+    margin-top: 35px;
+    line-height: 30px;
+    font-style: normal;
+}
+.icon img{
+    display: block;
+    border-color: white;
+    border: 10px;
+   width: 260px;
+   height: 70px;
+   padding: 10px;
+}
